@@ -6,6 +6,7 @@ import BlinkApp from './Blink';
 import LotsOfStyles from './Style';
 import FixedDimensionsBasic from './FixedDimensionsBasics';
 import FlexDimensionsBasics from './FlexDemensionsBasics';
+import FlexDirectionBasics from './FlexDirectionBasics';
 
 export default class HelloWorldApp extends Component {
     render() {
@@ -18,6 +19,7 @@ export default class HelloWorldApp extends Component {
                 <LotsOfStyles />
                 <FixedDimensionsBasic />
                 <FlexDimensionsBasics />
+                <FlexDirectionBasics />
             </View>
         );
     }
