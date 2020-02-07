@@ -9,6 +9,7 @@ import FlexDimensionsBasics from './FlexDemensionsBasics';
 import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
+import PizzaTranslator from './PizzaTranslator';
 
 export default class HelloWorldApp extends Component {
     render() {
@@ -24,6 +25,7 @@ export default class HelloWorldApp extends Component {
                 <FlexDirectionBasics />
                 <JustifyContentBasics />
                 <AlignItemsBasics />
+                <PizzaTranslator />
             </View>
         );
     }
