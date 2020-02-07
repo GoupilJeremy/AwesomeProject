@@ -8,6 +8,7 @@ import FixedDimensionsBasic from './FixedDimensionsBasics';
 import FlexDimensionsBasics from './FlexDemensionsBasics';
 import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
+import AlignItemsBasics from './AlignItemsBasics';
 
 export default class HelloWorldApp extends Component {
     render() {
@@ -22,6 +23,7 @@ export default class HelloWorldApp extends Component {
                 <FlexDimensionsBasics />
                 <FlexDirectionBasics />
                 <JustifyContentBasics />
+                <AlignItemsBasics />
             </View>
         );
     }
