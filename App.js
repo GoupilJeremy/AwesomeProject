@@ -14,6 +14,7 @@ import ButtonBasics from './ButtonBasics';
 import Touchables from './Touchables';
 import IScrolledDownAndWhatHappenedNextShockedMe from './IScrolledDownAndWhatHappenedNextShockedMe';
 import FlatListBasics from './FlatListBasics';
+import SectionListBasics from './SectionListBasics';
 
 export default class HelloWorldApp extends Component {
     render() {
@@ -34,6 +35,7 @@ export default class HelloWorldApp extends Component {
                 <Touchables />
                 <IScrolledDownAndWhatHappenedNextShockedMe />
                 <FlatListBasics />
+                <SectionListBasics />
             </View>
         );
     }
