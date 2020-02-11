@@ -12,6 +12,7 @@ import AlignItemsBasics from './AlignItemsBasics';
 import PizzaTranslator from './PizzaTranslator';
 import ButtonBasics from './ButtonBasics';
 import Touchables from './Touchables';
+import IScrolledDownAndWhatHappenedNextShockedMe from './IScrolledDownAndWhatHappenedNextShockedMe';
 
 export default class HelloWorldApp extends Component {
     render() {
@@ -30,6 +31,7 @@ export default class HelloWorldApp extends Component {
                 <PizzaTranslator />
                 <ButtonBasics />
                 <Touchables />
+                <IScrolledDownAndWhatHappenedNextShockedMe />
             </View>
         );
     }
