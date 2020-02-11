@@ -13,6 +13,7 @@ import PizzaTranslator from './PizzaTranslator';
 import ButtonBasics from './ButtonBasics';
 import Touchables from './Touchables';
 import IScrolledDownAndWhatHappenedNextShockedMe from './IScrolledDownAndWhatHappenedNextShockedMe';
+import FlatListBasics from './FlatListBasics';
 
 export default class HelloWorldApp extends Component {
     render() {
@@ -32,6 +33,7 @@ export default class HelloWorldApp extends Component {
                 <ButtonBasics />
                 <Touchables />
                 <IScrolledDownAndWhatHappenedNextShockedMe />
+                <FlatListBasics />
             </View>
         );
     }
